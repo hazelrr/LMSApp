@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cosmosdb1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.DocumentDB/databaseAccounts/lmsappaccount",
+      "type": "cosmosdb.azure",
+      "connectionId": "ConnectionStrings:LMScosmos",
+      "secretStore": "AzureAppSettings"
+    },
+    "redis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Cache/Redis/LMSAppcache",
+      "type": "redis.azure",
+      "connectionId": "CacheConnection",
+      "secretStore": "AzureAppSettings"
+    },
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/LMSAppapi/apis/lms-app",
+      "type": "apis.azure",
+      "apiEndpoint": "https://lmsappapi.azure-api.net/"
+    }
+  }
+}

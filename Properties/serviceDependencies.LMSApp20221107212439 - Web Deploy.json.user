@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "redis1": {
+      "restored": true,
+      "restoreTime": "2022-11-07T20:03:31.7147472Z"
+    },
+    "cosmosdb1": {
+      "restored": true,
+      "restoreTime": "2022-11-07T20:01:31.1849984Z"
+    },
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2022-11-10T15:44:17.7048421Z"
+    }
+  },
+  "parameters": {
+    "redis1.resourceGroupName": {
+      "Name": "redis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "LMSApp20221107212439ResourceGroup"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "LMSApp20221107212439ResourceGroup"
+    },
+    "cosmosdb1.resourceGroupName": {
+      "Name": "cosmosdb1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "LMSApp20221107212439ResourceGroup"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "a6ae54af-c2b7-499c-ada3-f02869883518"
+    },
+    "cosmosdb1.subscriptionId": {
+      "Name": "cosmosdb1.subscriptionId",
+      "Type": "subscription",
+      "Value": "a6ae54af-c2b7-499c-ada3-f02869883518"
+    },
+    "redis1.subscriptionId": {
+      "Name": "redis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "a6ae54af-c2b7-499c-ada3-f02869883518"
+    }
+  }
+}
